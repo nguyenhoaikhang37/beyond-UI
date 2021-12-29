@@ -1,0 +1,17 @@
+.hero {
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.btn {
+  &-group {
+  }
+  &-primary {
+  }
+}
+.btn.btn {
+  &-primary {
+  }
+}

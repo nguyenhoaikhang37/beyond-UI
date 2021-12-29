@@ -1,0 +1,36 @@
+.contact {
+  margin-top: 140px;
+  background: #f4f6fd;
+  border-radius: 30px;
+  padding: 80px 160px;
+
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-input {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 20px;
+
+    input {
+      padding: 0 20px;
+      border-radius: 20px;
+      outline: none;
+      border: none;
+    }
+  }
+
+  .text {
+    &-heading {
+      margin: 0;
+    }
+    &-desc {
+      max-width: 340px;
+      margin-top: 25px;
+    }
+  }
+}
